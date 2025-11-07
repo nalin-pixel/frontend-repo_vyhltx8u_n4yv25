@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Spline from '@splinetool/react-spline';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   const handleCTAClick = () => {
     const el = document.getElementById('projects');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
